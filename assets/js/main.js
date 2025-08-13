@@ -67,7 +67,7 @@
 						},
 
 					// Delay.
-						delay: 6000
+						delay: 4000
 
 				};
 
@@ -118,7 +118,7 @@
 					// Hide last image after a short delay.
 						setTimeout(function() {
 							$bgs[lastPos].removeClass('visible');
-						}, settings.delay / 2);
+						}, 3000);
 
 				}, settings.delay);
 
